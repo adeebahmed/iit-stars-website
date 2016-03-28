@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>STARS at IIT</title>
+    <title>Modern Business - Start Bootstrap Template</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -109,96 +109,76 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Gallery
+                <h1 class="page-header">Contact
                     <small>Subheading</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a>
                     </li>
-                    <li class="active">Gallery</li>
+                    <li class="active">Contact</li>
                 </ol>
             </div>
         </div>
         <!-- /.row -->
 
-        <!-- Project One -->
+        <!-- Content Row -->
         <div class="row">
-            <div class="col-md-7">
-                <!--a href="portfolio-item.html">
-					<!--img class="img-responsive img-hover" src="http://placehold.it/700x300" alt=""-->
-                </a-->
-				<video src="timelapse_slowest.mov" width="650" height="433" type="video/mp4" controls />
-            </div>
-            <div class="col-md-5">
-                <h3>A Day at IIT Computer Discovery Camp</h3>
-                <p>Spring 2015 - Playing with Makey-makeys & Scratch and finishing up our websites for the last day of camp!</p>
-                <!--a class="btn btn-primary" href="portfolio-item.html">View Project</i></a-->
-            </div>
-        </div>
-        <!-- /.row -->
+            <!-- Map Column -->
+            <div class="col-md-8">
+              <div class="pure-g">
+                <div class="pure-u-1 pure-u-md-1-2">
+                  <h2 align="center">CONTACT US</h2>
 
-        <hr>
+                  <form class="form" name="contactform" id="form1" method="post" action="sendform.php">
 
-        <!-- Project Two -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="spring16Sites.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Spring 2016</h3>
-                <h4>Students' Websites</h4>
-                <p></p>
-                <a class="btn btn-primary" href="spring16Sites.html">View Projects</i></a>
-            </div>
-        </div>
-        <!-- /.row -->
+                    <p class="name">
+                      <input name="name" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" type="text">
+                    </p>
 
-        <hr>
-		
-		<!-- Project Three -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="spring15Sites.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Spring 2015</h3>
-                <h4>Students' Websites</h4>
-                <p></p>
-                <a class="btn btn-primary" href="spring15Sites.html">View Projects</i></a>
-            </div>
-        </div>
-        <!-- /.row -->
+                    <p class="email">
+                      <input name="email" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" type="text">
+                    </p>
 
-        <hr>
+                    <p class="text">
+                      <textarea name="comments" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+                    </p>
 
-        <!-- Pagination -->
-        <div class="row text-center">
-            <div class="col-lg-12">
-                <ul class="pagination">
+                    <div class="submit">
+                      <input value="SEND" id="button-blue" type="submit">
+
+                    </div>
+                  </form>
+                </div>
+              </div>
+                <!-- Embedded Google Map
+                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+            -->
+                  </div>
+            <!-- Contact Details Column -->
+            <div class="col-md-4">
+                <h3>Contact Details</h3>
+                <p>
+                    3481 Melrose Place<br>Beverly Hills, CA 90210<br>
+                </p>
+                <p><i class="fa fa-phone"></i> 
+                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
+                <p><i class="fa fa-envelope-o"></i> 
+                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a>
+                </p>
+                <p><i class="fa fa-clock-o"></i> 
+                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+                <ul class="list-unstyled list-inline list-social-icons">
                     <li>
-                        <a href="#">&laquo;</a>
-                    </li>
-                    <li class="active">
-                        <a href="#">1</a>
+                        <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
                     </li>
                     <li>
-                        <a href="#">2</a>
+                        <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
                     </li>
                     <li>
-                        <a href="#">3</a>
+                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
                     </li>
                     <li>
-                        <a href="#">4</a>
-                    </li>
-                    <li>
-                        <a href="#">5</a>
-                    </li>
-                    <li>
-                        <a href="#">&raquo;</a>
+                        <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
                     </li>
                 </ul>
             </div>
@@ -211,7 +191,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; 2015-2016 Stars at IIT</p>
                 </div>
             </div>
         </footer>
@@ -225,6 +205,68 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-</body>
+    <!-- Contact Form JavaScript -->
+    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. 
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>-->
+<?php
+if(isset($_POST['email'])) {
+    $email_to = "stars@cs.iit.edu";
+    $email_subject = "Query from STARS Website";
+     
+     
+    function died($error) {
+        echo "<b>We are very sorry, there is an error in the form! </b>";
+        echo "<b>".$error."</b><br />";
+        echo "<b>Please go back and fix these errors.</b><br />";
+        die();
+    }
+     
+    // does data exist?
+    if(!isset($_POST['name']) ||
+        !isset($_POST['email']) ||
+        !isset($_POST['comments'])) {
+        died('We are very sorry, there seems to be some error in the form! ');       
+    }
+     
+    $first_name = $_POST['name']; // required
+    $email_from = $_POST['email']; // required
+    $comments = $_POST['comments']; // required
+     
+    $error_message = "";
+    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+  if(!preg_match($email_exp,$email_from)) {
+    $error_message .= '<br />Are you sure the email address is valid?<br />';
+  }
+    $string_exp = "/^[A-Za-z .'-]+$/";
+  if(!preg_match($string_exp,$first_name)) {
+    $error_message .= 'Is your name spelled right?<br />';
+  }
+   if(strlen($comments) < 2) {
+    $error_message .= 'Please enter Valid comments! Thank you.<br />';
+  }
+  if(strlen($error_message) > 0) {
+    died($error_message);
+  }
+    $email_message = "Form details are below.\n\n";
+     
+    function clean_string($string) {
+      $bad = array("content-type","bcc:","to:","cc:","href");
+      return str_replace($bad,"",$string);
+    }
+     
+    $email_message .= "Name: ".clean_string($first_name)."\n";
+    $email_message .= "Email: ".clean_string($email_from)."\n";
+    $email_message .= "Comments: ".clean_string($comments)."\n";
+     
+     
+// Email headers
+$headers = 'From: '.$email_from."\r\n".
+'Reply-To: '.$email_from."\r\n" .
+'X-Mailer: PHP/' . phpversion();
+@mail($email_to, $email_subject, $email_message, $headers);  
+?>
+ 
 
+</body>
 </html>
