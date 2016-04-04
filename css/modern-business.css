@@ -44,6 +44,68 @@ header.carousel .fill {
     background-size: cover;
 }
 
+.page-header
+{
+  color:white;
+}
+
+.page-header small{
+  color:floralwhite;
+}
+
+ .navbar {
+     background-color: #F5F5F5;
+     border-bottom-color: #F5F5F5;
+   }
+
+   .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:hover {
+     color: black;
+   }
+    body {
+      color: #4F4F4F;
+    }
+
+    h2{
+      color:ghostwhite;
+    }
+
+    p{
+      color:ghostwhite;
+    }
+
+    a, h3{
+      color:navajowhite;
+    }
+
+    h4{
+      color:ghostwhite;
+      text-decoration:underline;
+    }
+
+    .breadcrumb li a{
+      color:cadetblue;
+    }
+
+    .panel-body p{
+      color: black;
+    }
+
+    .panel-body a{
+      color:cadetblue;
+    }
+
+    .panel-heading h4{
+      color:black;
+      text-decoration:none;
+    }
+
+    .caption p{
+      color:black;
+    }
+
+    .caption h3{
+      color:black;
+    }
 /* 404 Page Styles */
 
 .error-404 {
