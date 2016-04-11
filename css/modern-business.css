@@ -154,4 +154,8 @@ footer {
     header.carousel .carousel {
         height: 70%;
     }
+    video{
+      height:180px;
+      width:280px;
+    }
 }
