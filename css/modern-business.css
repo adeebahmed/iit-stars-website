@@ -106,6 +106,14 @@ header.carousel .fill {
     .caption h3{
       color:black;
     }
+
+    .img-responsive.img-hover{
+      margin-left:24px;
+      width:535px;
+    }
+    .col-md-5{
+      margin-left:-24px;
+    }
 /* 404 Page Styles */
 
 .error-404 {

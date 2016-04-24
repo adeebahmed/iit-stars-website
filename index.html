@@ -109,8 +109,11 @@
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li><br />
+            <a id="fullsize" onclick="$('#myCarousel').css('height', '100%'); $(this).hide(); $('#normalsize').show();">View full size</a>
+            <a id="normalsize" onclick="$('#myCarousel').css('height', '50%'); $(this).hide(); $('#fullsize').show();">View normal size</a>
         </ol>
+
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
@@ -121,7 +124,7 @@
                 <div class="fill" style="background-image: url('media/pictures/index/camp2014.jpg');"></div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image: url('media/pictures/index/splash2.jpg');"></div>
+                <div class="fill" style="background-image: url('media/pictures/index/Splash2.jpg');"></div>
             </div>
         </div>
 
@@ -213,8 +216,9 @@
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
-        interval: 5000 //changes the speed
+        interval: 4000 //changes the speed
     })
+    $('#normalsize').hide();
     </script>
 
 </body>
