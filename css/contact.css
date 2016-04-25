@@ -29,6 +29,8 @@
 	border:#30aed6 solid 3px;
 }
 
+.error{color:red;}
+
 
 #name{
 	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
@@ -44,7 +46,7 @@
 	background-repeat: no-repeat;
 }
 
-#comment{
+#comments {
 	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
 	background-size: 30px 30px;
 	background-position: 11px 8px;

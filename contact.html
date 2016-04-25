@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>STARS at IIT: Contact</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -125,14 +125,14 @@
                 <div class="pure-u-1 pure-u-md-1-2">
                   <h2 align="center">CONTACT US</h2>
 
-                  <form class="form" name="contactform" id="form1" method="post" action="bin/contact_me.php">
+                  <form class="form" name="contactform" id="contactform" method="post" action="bin/contact_me.php">
 
                     <p class="name">
                       <input name="name" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" type="text">
                     </p>
 
                     <p class="email">
-                      <input name="email" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" type="text">
+                      <input name="email" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" type="email">
                     </p>
 
                     <p class="comments">
@@ -140,7 +140,7 @@
                     </p>
 
                     <div class="submit">
-                      <input value="SEND" id="button-blue" type="submit">
+                      <input value="SEND" id="button-blue" type="button">
                     </div>
                   </form>
                 </div>
@@ -189,14 +189,17 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
+    <script src="js/validation.js"></script>
+   
+   <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
 
     <!-- Contact Form JavaScript -->
     <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+
 
 </body>
 
