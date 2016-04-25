@@ -139,6 +139,14 @@ header.carousel .fill {
     font-style: italic;
 }
 
+#treasurer{
+  margin-top:-300px;
+}
+
+#ea{
+  margin-top:-280px;
+}
+
 /* Footer Styles */
 
 footer {
@@ -151,6 +159,12 @@ footer {
     .customer-img,
     .img-related {
         margin-bottom: 30px;
+    }
+    #treasurer{
+      margin-top:0;
+    }
+    #ea{
+      margin-top:0;
     }
 }
 
@@ -166,4 +180,5 @@ footer {
       height:180px;
       width:280px;
     }
+
 }
